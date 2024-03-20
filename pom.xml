@@ -4,7 +4,7 @@
 
     <groupId>dev.minearchive</groupId>
     <artifactId>material-util</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.2-SNAPSHOT</version>
 
     <build>
         <plugins>
@@ -34,7 +34,7 @@
     <scm>
         <url>https://github.com/minechanjp/material-util</url>
         <connection>scm:git:ssh@github.com:minechanjp/material-util.git</connection>
-        <tag>v1.1</tag>
+        <tag>v1.2</tag>
     </scm>
 
     <properties>
