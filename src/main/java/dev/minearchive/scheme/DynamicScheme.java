@@ -14,11 +14,12 @@
  * limitations under the License.
  */
 
-package scheme;
+package dev.minearchive.scheme;
 
-import hct.Hct;
-import palettes.TonalPalette;
-import utils.MathUtils;
+import dev.minearchive.hct.Hct;
+import dev.minearchive.palettes.TonalPalette;
+import dev.minearchive.utils.MathUtils;
+
 
 /**
  * Provides important settings for creating colors dynamically, and 6 color palettes. Requires: 1. A

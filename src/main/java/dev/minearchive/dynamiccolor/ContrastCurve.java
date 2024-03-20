@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package dynamiccolor;
+package dev.minearchive.dynamiccolor;
 
-import utils.MathUtils;
+
+import dev.minearchive.utils.MathUtils;
 
 /**
  * A class containing a value that changes with the contrast level.
@@ -63,7 +64,7 @@ public final class ContrastCurve {
     if (contrastLevel <= -1.0) {
       return this.low;
     } else if (contrastLevel < 0.0) {
-      return MathUtils.lerp(this.low, this.normal, (contrastLevel - -1) / 1);
+      return MathUtils.lerp(this.low, this.normal, (contrastLevel - -1));
     } else if (contrastLevel < 0.5) {
       return MathUtils.lerp(this.normal, this.medium, (contrastLevel - 0) / 0.5);
     } else if (contrastLevel < 1.0) {

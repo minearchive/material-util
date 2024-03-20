@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package scheme;
+package dev.minearchive.scheme;
+
+import dev.minearchive.dislike.DislikeAnalyzer;
+import dev.minearchive.hct.Hct;
+import dev.minearchive.palettes.TonalPalette;
+import dev.minearchive.temperature.TemperatureCache;
 
 import static java.lang.Math.max;
-
-import dislike.DislikeAnalyzer;
-import hct.Hct;
-import palettes.TonalPalette;
-import temperature.TemperatureCache;
 
 /**
  * A scheme that places the source color in Scheme.primaryContainer.

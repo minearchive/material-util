@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package palettes;
+package dev.minearchive.palettes;
+
+import dev.minearchive.hct.Hct;
 
 import static java.lang.Math.max;
 import static java.lang.Math.min;
-
-import hct.Hct;
 
 /**
  * An intermediate concept between the key color for a UI theme, and a full color scheme. 5 sets of

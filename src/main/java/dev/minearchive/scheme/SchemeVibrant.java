@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package scheme;
+package dev.minearchive.scheme;
 
-import hct.Hct;
-import palettes.TonalPalette;
+import dev.minearchive.hct.Hct;
+import dev.minearchive.palettes.TonalPalette;
 
 /** A loud theme, colorfulness is maximum for Primary palette, increased for others. */
 public class SchemeVibrant extends DynamicScheme {

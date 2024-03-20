@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package scheme;
+package dev.minearchive.scheme;
 
-import hct.Hct;
-import palettes.TonalPalette;
-import utils.MathUtils;
+import dev.minearchive.hct.Hct;
+import dev.minearchive.palettes.TonalPalette;
+import dev.minearchive.utils.MathUtils;
 
 /** A playful theme - the source color's hue does not appear in the theme. */
 public class SchemeExpressive extends DynamicScheme {

@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package quantize;
+package dev.minearchive.quantize;
 
-import utils.ColorUtils;
+
+import dev.minearchive.utils.ColorUtils;
 
 /**
  * Provides conversions needed for K-Means quantization. Converting input to points, and converting

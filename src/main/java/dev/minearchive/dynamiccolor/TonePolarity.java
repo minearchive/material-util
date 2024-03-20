@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package dynamiccolor;
+package dev.minearchive.dynamiccolor;
 
 /**
  * Describes the relationship in lightness between two colors.
@@ -29,5 +29,5 @@ public enum TonePolarity {
   DARKER,
   LIGHTER,
   NEARER,
-  FARTHER;
+  FARTHER
 }

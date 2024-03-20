@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-package quantize;
+package dev.minearchive.quantize;
 
 interface Quantizer {
-  public QuantizerResult quantize(int[] pixels, int maxColors);
+  QuantizerResult quantize(int[] pixels, int maxColors);
 }

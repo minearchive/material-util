@@ -14,11 +14,12 @@
  * limitations under the License.
  */
 
-package contrast;
+package dev.minearchive.contrast;
+
+import dev.minearchive.utils.ColorUtils;
 
 import static java.lang.Math.max;
 
-import utils.ColorUtils;
 
 /**
  * Color science for contrast utilities.

@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package quantize;
+package dev.minearchive.quantize;
 
-import utils.ColorUtils;
+import dev.minearchive.utils.ColorUtils;
+
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -367,7 +368,7 @@ public final class QuantizerWu implements Quantizer {
     throw new IllegalArgumentException("unexpected direction " + direction);
   }
 
-  private static enum Direction {
+  private enum Direction {
     RED,
     GREEN,
     BLUE

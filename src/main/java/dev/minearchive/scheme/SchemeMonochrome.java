@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package scheme;
+package dev.minearchive.scheme;
 
-import hct.Hct;
-import palettes.TonalPalette;
+import dev.minearchive.hct.Hct;
+import dev.minearchive.palettes.TonalPalette;
 
 /** A monochrome theme, colors are purely black / white / gray. */
 public class SchemeMonochrome extends DynamicScheme {

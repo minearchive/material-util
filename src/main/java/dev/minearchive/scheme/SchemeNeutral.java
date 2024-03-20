@@ -13,10 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package scheme;
+package dev.minearchive.scheme;
 
-import hct.Hct;
-import palettes.TonalPalette;
+
+import dev.minearchive.hct.Hct;
+import dev.minearchive.palettes.TonalPalette;
 
 /** A theme that's slightly more chromatic than monochrome, which is purely black / white / gray. */
 public class SchemeNeutral extends DynamicScheme {

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package score;
+package dev.minearchive.score;
 
-import hct.Hct;
-import utils.MathUtils;
+import dev.minearchive.hct.Hct;
+import dev.minearchive.utils.MathUtils;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package quantize;
+package dev.minearchive.quantize;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

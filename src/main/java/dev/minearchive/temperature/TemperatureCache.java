@@ -14,17 +14,13 @@
  * limitations under the License.
  */
 
-package temperature;
+package dev.minearchive.temperature;
 
-import hct.Hct;
-import utils.ColorUtils;
-import utils.MathUtils;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import dev.minearchive.hct.Hct;
+import dev.minearchive.utils.ColorUtils;
+import dev.minearchive.utils.MathUtils;
+
+import java.util.*;
 
 /**
  * Design utilities using color temperature theory.
@@ -184,7 +180,7 @@ public final class TemperatureCache {
 
     int ccwCount = (int) Math.floor(((double) count - 1.0) / 2.0);
     for (int i = 1; i < (ccwCount + 1); i++) {
-      int index = 0 - i;
+      int index = -i;
       while (index < 0) {
         index = allColors.size() + index;
       }

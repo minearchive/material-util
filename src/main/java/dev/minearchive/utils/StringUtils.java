@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package utils;
+package dev.minearchive.utils;
 
 /** Utility methods for string representations of colors. */
 final class StringUtils {

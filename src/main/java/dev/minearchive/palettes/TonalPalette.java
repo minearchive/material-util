@@ -14,9 +14,10 @@
  * limitations under the License.
  */
 
-package palettes;
+package dev.minearchive.palettes;
 
-import hct.Hct;
+import dev.minearchive.hct.Hct;
+
 import java.util.HashMap;
 import java.util.Map;
 

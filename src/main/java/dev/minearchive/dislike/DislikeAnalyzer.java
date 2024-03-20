@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package dislike;
+package dev.minearchive.dislike;
 
-import hct.Hct;
+import dev.minearchive.hct.Hct;
 
 /**
  * Check and/or fix universally disliked colors.

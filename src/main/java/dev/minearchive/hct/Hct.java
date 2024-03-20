@@ -14,23 +14,23 @@
  * limitations under the License.
  */
 
-package hct;
+package dev.minearchive.hct;
 
-import utils.ColorUtils;
+/*
+  A color system built using CAM16 hue and chroma, and L* from L*a*b*.
 
-/**
- * A color system built using CAM16 hue and chroma, and L* from L*a*b*.
- *
- * <p>Using L* creates a link between the color system, contrast, and thus accessibility. Contrast
- * ratio depends on relative luminance, or Y in the XYZ color space. L*, or perceptual luminance can
- * be calculated from Y.
- *
- * <p>Unlike Y, L* is linear to human perception, allowing trivial creation of accurate color tones.
- *
- * <p>Unlike contrast ratio, measuring contrast in L* is linear, and simple to calculate. A
- * difference of 40 in HCT tone guarantees a contrast ratio >= 3.0, and a difference of 50
- * guarantees a contrast ratio >= 4.5.
+  <p>Using L* creates a link between the color system, contrast, and thus accessibility. Contrast
+  ratio depends on relative luminance, or Y in the XYZ color space. L*, or perceptual luminance can
+  be calculated from Y.
+
+  <p>Unlike Y, L* is linear to human perception, allowing trivial creation of accurate color tones.
+
+  <p>Unlike contrast ratio, measuring contrast in L* is linear, and simple to calculate. A
+  difference of 40 in HCT tone guarantees a contrast ratio >= 3.0, and a difference of 50
+  guarantees a contrast ratio >= 4.5.
  */
+
+import dev.minearchive.utils.ColorUtils;
 
 /**
  * HCT, hue, chroma, and tone. A color system that provides a perceptually accurate color

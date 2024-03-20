@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package hct;
+package dev.minearchive.hct;
+
+import dev.minearchive.utils.ColorUtils;
 
 import static java.lang.Math.max;
-
-import utils.ColorUtils;
 
 /**
  * CAM16, a color appearance model. Colors are not just defined by their hex code, but rather, a hex
