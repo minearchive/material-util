@@ -35,7 +35,7 @@
     </repositories>
 
     <scm>
-        <url>https://github.com/exampleuser/exampleproject</url>
+        <url>https://github.com/minechanjp/material-util</url>
         <connection>scm:git:git@github.com:minechanjp/material-util.git</connection>
         <tag>v1.0</tag>
     </scm>
