@@ -4,7 +4,7 @@
 
     <groupId>dev.minearchive</groupId>
     <artifactId>materials</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
 
     <build>
         <plugins>
@@ -13,14 +13,11 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>3.0.1</version>
                 <configuration>
-                    <!-- リリースバージョンの指定 -->
                     <tagNameFormat>v@{project.version}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <releaseProfiles>release</releaseProfiles>
                     <goals>deploy</goals>
-                    <!-- SCMコメントの設定 -->
                     <scmCommentPrefix>[Release]</scmCommentPrefix>
-                    <!-- スナップショットバージョンの自動インクリメント -->
                     <preparationGoals>clean verify</preparationGoals>
                 </configuration>
             </plugin>
@@ -37,7 +34,7 @@
     <scm>
         <url>https://github.com/minechanjp/material-util</url>
         <connection>scm:git:https://git@github.com:minechanjp/material-util.git</connection>
-        <tag>v1.0</tag>
+        <tag>v1.1</tag>
     </scm>
 
     <properties>
